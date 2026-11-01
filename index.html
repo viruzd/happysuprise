@@ -39,7 +39,7 @@ blockquote{margin:6px 0 14px;padding-left:14px;border-left:3px solid var(--acc);
 <section class="s on" id="s1">
  <span class="big">💌</span>
  <h1 id="t1"></h1>
- <p>Ada kejutan kecil untukmu.</p>
+ <p>Happy birthday sayanggku, ada sesuatu ni penasaran?</p>
  <button class="btn" id="go">Buka</button>
 </section>
 
@@ -67,8 +67,8 @@ blockquote{margin:6px 0 14px;padding-left:14px;border-left:3px solid var(--acc);
 <script>
 // ====== UBAH BAGIAN INI ======
 var C = {
-  nama: "Sayang",     // panggilan pasanganmu
-  dari: "Aku",        // namamu
+  nama: "Sayangku",     // panggilan pasanganmu
+  dari: "mas Do",        // namamu
   tanya: [
     {q:"Apa warna favoritmu?",
      o:[["Pink","Manis, sama seperti kamu."],["Hitam biru","Tenang dan dalam. Aku suka pilihanmu."],["Putih","Bersih dan sederhana. Cocok buat kamu."]]},
@@ -98,7 +98,7 @@ C.pesan.forEach(function(t,i){var p=document.createElement("p");p.textContent=t;
 var q=document.createElement("blockquote");q.textContent=C.kutipan;box.appendChild(q);
 var sg=document.createElement("p");sg.className="sign";sg.textContent="Dari "+C.dari;box.appendChild(sg);
 $("t3").textContent=C.penutup;
-$("end").textContent="Terima kasih sudah membaca sampai habis, "+C.nama+".";
+$("end").textContent="Terima kasih sudah membaca sampai habis, love you❤️😘 "+C.nama+".";
 var qi=0;
 function renderQ(){
   var Q=C.tanya[qi];
